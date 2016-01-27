@@ -41,6 +41,17 @@ Each student's project will consist of two parts:
 2. Have at least three JavaScript-enabled “panels”.
 3. Include at least two pieces of JavaScript-enabled functionality that demonstrate JS concepts learned in class, in addition to the panel-switching functionality from the previous requirement.
 
+## Presentation
+* Each student will be given 10 minutes to present. Any time not used for the presentation will be given to questions from your peers or the instructor.
+* The instructor will give warnings when 5 minutes and 1 minute are remaining.
+* Think of your presentation as a code review for your peers. This is not a client demonstration; it is your opportunity to demonstrate your project’s code and functionality, and to explain its strengths and areas for improvement to other developers.
+* Your presentation should answer three questions:
+	* What is the problem your site or web app is trying to solve (i.e., what is the purpose of your project as it relates to mobile web development)?
+	* What is one area of code you are especially proud of?
+	* What is one area of code that has room for improvement, and how would you make that improvement? (i.e., given an unlimited amount of time, what additional design improvements or functionality would you include to enhance or improve your project?)
+* Must be a demonstration of the site AND its code.
+* Presentations will be done via the classroom computer and overhead projector. Additional presentation materials (such as slide presentations or handouts) are welcome, but not required.
+
 ## Suggestions
 * You will not be graded on your site's design, but I do expect you to put in the effort to make your site aesthetically pleasing.
 * Use of frameworks or plugins is not allowed. I need to be able to determine what you've learned in class, including coding abilities and adherance to best practices. If you're overreliant on frameworks or plugins, it will be difficult for me to assess your core competencies.
