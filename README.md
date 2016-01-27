@@ -17,7 +17,7 @@ Each student's project will consist of two parts:
 
 ## Grading
 * Responsive website or single-page web application: **100 points**
-* Presentation: 0 points, but required for project to be graded
+* Presentation: **0 points**, but required for project to be graded
 
 ## Requirements
 #### General Requirements
