@@ -54,5 +54,3 @@ This can include, but is not limited to:
 * Proper use of advanced HTML5 and CSS3 techniques.
 * Additional, substantial JavaScript or CSS3 functionality.
 * A creative or unique presentation.
-
-Any extra efforts that aren't totally obvious should be mentioned during your presentation if you want to receive points for them. Extra credit points will be given at the instructor's discretion.
