@@ -15,8 +15,11 @@ Each student's project will consist of two parts:
 1. Your website must be committed to your GitHub account by **6 p.m. on Wednesday, 5/11/16**.
 2. Your presentation must also be given during class on **Wednesday, 5/11/16**.
 
-## Requirements
+## Grading
+* Responsive website or single-page web application: **100 points**
+* Presentation: 0 points, but required for project to be graded
 
+## Requirements
 #### General Requirements
 1. All HTML and CSS code must validate and meet HTML5/CSS3 markup requirements (valid doctype, proper browser prefixes, required title and meta tags in place, etc.)
 2. No JavaScript console errors.
@@ -26,4 +29,19 @@ Each student's project will consist of two parts:
 6. Must include at least two "quick win" techniques, as discussed in class.
 7. Must include at least one performance enhancement (proper JS/CSS file placement, responsive images, minified/concatenated source code, etc.).
 8. Demonstrate understanding of Git principles, including project forking, cloning, and frequent code commits and pushes.
-9. Must be submitted to GitHub before the deadline.
+9. Completed project must be submitted to GitHub before the deadline.
+
+#### Additional Requirements for Responsive Website
+1. Have at least three responsive breakpoints starting at a 320px-wide resolution, and have content or layout that responds differently to each.
+2. Have at least three pages, all of which can be accessed from within the site's navigation.
+3. Include at least two pieces of JavaScript-enabled functionality or interaction that demonstrate JS concepts learned in class.
+
+#### Additional Requirements for Single-Page Web Application
+1. Display correctly from a 320px-wide resolution to a 768px-wide resolution.
+2. Have at least three JavaScript-enabled “panels”.
+3. Include at least two pieces of JavaScript-enabled functionality that demonstrate JS concepts learned in class, in addition to the panel-switching functionality from the previous requirement.
+
+## Suggestions
+1. You will not be graded on your site's design, but I do expect you to put in the effort to make your site aesthetically pleasing.
+2. Use of frameworks or plugins is not allowed. I need to be able to determine what you've learned in class, including coding abilities and adherance to best practices. If you're overreliant on frameworks or plugins, it will be difficult for me to assess your core competencies.
+3. Aside from class cancellation, there are no makeups for presentations. If you are unable to present on 5/11/16, let me know well in advance so you can present early.
