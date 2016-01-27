@@ -45,3 +45,14 @@ Each student's project will consist of two parts:
 * You will not be graded on your site's design, but I do expect you to put in the effort to make your site aesthetically pleasing.
 * Use of frameworks or plugins is not allowed. I need to be able to determine what you've learned in class, including coding abilities and adherance to best practices. If you're overreliant on frameworks or plugins, it will be difficult for me to assess your core competencies.
 * Aside from class cancellation, there are no makeups for presentations. If you are unable to present on 5/11/16, let me know well in advance so you can present early.
+
+## Extra Credit
+Up to 10 extra credit points will be awarded to projects that go above and beyond the basic requirements, at the instructor’s discretion. If this additional work is subtle or not immediately obvious in the final site, be sure to mention it in your presentation.
+
+This can include, but is not limited to:
+* Extra effort and attention to detail on the site's design and aesthetics.
+* Proper use of advanced HTML5 and CSS3 techniques.
+* Additional, substantial JavaScript or CSS3 functionality.
+* A creative or unique presentation.
+
+Any extra efforts that aren't totally obvious should be mentioned during your presentation if you want to receive points for them. Extra credit points will be given at the instructor's discretion.
