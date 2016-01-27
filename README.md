@@ -10,3 +10,7 @@ Each Student's Project Will Consist Of Two Parts:
 
 1. A responsive website or single-page web application.
 2. A final presentation on the project given to the rest of the class. The presentation is not graded; **HOWEVER**, your project will not be graded if you don't present on time.
+
+## Deadlines
+1. Your website must be committed to your GitHub account by **6 p.m. on Wednesday, 5/11/16**.
+2. Your presentation must also be given during class on **Wednesday, 5/11/16**.
