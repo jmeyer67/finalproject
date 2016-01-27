@@ -42,6 +42,6 @@ Each student's project will consist of two parts:
 3. Include at least two pieces of JavaScript-enabled functionality that demonstrate JS concepts learned in class, in addition to the panel-switching functionality from the previous requirement.
 
 ## Suggestions
-1. You will not be graded on your site's design, but I do expect you to put in the effort to make your site aesthetically pleasing.
-2. Use of frameworks or plugins is not allowed. I need to be able to determine what you've learned in class, including coding abilities and adherance to best practices. If you're overreliant on frameworks or plugins, it will be difficult for me to assess your core competencies.
-3. Aside from class cancellation, there are no makeups for presentations. If you are unable to present on 5/11/16, let me know well in advance so you can present early.
+* You will not be graded on your site's design, but I do expect you to put in the effort to make your site aesthetically pleasing.
+* Use of frameworks or plugins is not allowed. I need to be able to determine what you've learned in class, including coding abilities and adherance to best practices. If you're overreliant on frameworks or plugins, it will be difficult for me to assess your core competencies.
+* Aside from class cancellation, there are no makeups for presentations. If you are unable to present on 5/11/16, let me know well in advance so you can present early.
