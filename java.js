@@ -116,14 +116,14 @@ var SMASH = {
             checkCollision = false; // we only need to check for a collision
         // if the user tapped on this game tick
 
-        // decrease our nextBubble counter
-        SMASH.nextBubble -= 1;
+        // decrease our nextSkull counter
+        SMASH.nextSkull -= 1;
         // if the counter is less than zero
-        if (SMASH.nextBubble < 0) {
-            // put a new instance of bubble into our entities array
-            SMASH.entities.push(new SMASH.Bubble());
+        if (SMASH.nextSkull < 0) {
+            // put a new instance of Skull into our entities array
+            SMASH.entities.push(new SMASH.Skull());
             // reset the counter with a random value
-            SMASH.nextBubble = ( Math.random() * 100 ) + 100;
+            SMASH.nextSkull = ( Math.random() * 100 ) + 100;
         }
 
         // spawn a new instance of Touch
@@ -145,7 +145,7 @@ var SMASH = {
         for (i = 0; i < SMASH.entities.length; i += 1) {
             SMASH.entities[i].update();
 
-            if (SMASH.entities[i].type === 'bubble' && checkCollision) {
+            if (SMASH.entities[i].type === 'skull' && checkCollision) {
                 hit = SMASH.collides(SMASH.entities[i],
                     {x: SMASH.Input.x, y: SMASH.Input.y, r: 7});
                 if (hit) {
