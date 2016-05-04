@@ -20,18 +20,11 @@ var SMASH = {
     // set up some initial screen values
     WIDTH: 320,
     HEIGHT:  480,
-    RATIO:  null,
-    currentWidth:  null,
-    currentHeight:  null,
-    canvas: null,
-    ctx:  null,
-    ua:  null,
-    android: null,
-    ios:  null,
+
     scale:  1,
     offset: {top: 0, left: 0},
-    //time spawn of bug
-    nextBug: 100,
+    //time spawn of skull
+    nextSkull: 100,
     //stores touches, particles, bugs
     entities: [],
     //tracking player
@@ -41,6 +34,15 @@ var SMASH = {
         escaped: 0,
         accuracy: 0
     },
+
+    RATIO:  null,
+    currentWidth:  null,
+    currentHeight:  null,
+    canvas: null,
+    ctx:  null,
+    ua:  null,
+    android: null,
+    ios:  null,
 
     init: function() {
 
@@ -155,7 +157,7 @@ var SMASH = {
                             SMASH.entities[i].x,
                             SMASH.entities[i].y,
                             2,
-                            // random opacity to spice it up a bit
+                            // random opacity to mix it up
                             'rgba(255,255,255,'+Math.random()*1+')'
                         ));
                     }
@@ -172,11 +174,7 @@ var SMASH = {
             }
         }
 
-        // update wave offset
-        // feel free to play with these values for
-        // either slower or faster waves
-        SMASH.wave.time = new Date().getTime() * 0.002;
-        SMASH.wave.offset = Math.sin(SMASH.wave.time * 0.8) * 5;
+
 
         // calculate accuracy
         SMASH.score.accuracy = (SMASH.score.hit / SMASH.score.taps) * 100;
@@ -195,15 +193,7 @@ var SMASH = {
 
         SMASH.Draw.rect(0, 0, SMASH.WIDTH, SMASH.HEIGHT, '#036');
 
-        // display snazzy wave effect
-        for (i = 0; i <SMASH.wave.total; i++) {
 
-            SMASH.Draw.circle(
-                SMASH.wave.x + SMASH.wave.offset +  (i * SMASH.wave.r),
-                SMASH.wave.y,
-                SMASH.wave.r,
-                '#fff');
-        }
 
         // cycle through all entities and render to canvas
         for (i = 0; i < SMASH.entities.length; i += 1) {
@@ -263,16 +253,90 @@ SMASH.Draw = {
         SMASH.ctx.fillRect(x, y, w, h);
     },
 
-    circle: function(x, y, r, col) {
-        SMASH.ctx.fillStyle = col;
-        SMASH.ctx.beginPath();
-        SMASH.ctx.arc(x + 5, y + 5, r, 0,  Math.PI * 2, true);
-        SMASH.ctx.closePath();
-        SMASH.ctx.fill();
-    },
+    //create skull picture loop
+    skull:(function () {
+
+        var singleImageDisplayTime = 1000;
+        var completeLoopTime = 5 * singleImageDisplayTime;
+
+        function fadeInFunction(jquerySelector) {
+            $(jquerySelector).fadeIn("slow", function () {});
+        }
+
+        function fadeOutFunction(jquerySelector) {
+            $(jquerySelector).fadeOut("slow", function () {});
+        }
+
+        setTimeout(function () {
+            fadeInFunction("#img1");
+            setInterval(function () {
+                fadeInFunction("#img1");
+            }, completeLoopTime);
+        }, 5 * singleImageDisplayTime);
+        setTimeout(function () {
+            fadeOutFunction("#img1");
+            setInterval(function () {
+                fadeOutFunction("#img1");
+            }, completeLoopTime);
+        }, 1 * singleImageDisplayTime);
+
+        setTimeout(function () {
+            fadeInFunction("#img2");
+            setInterval(function () {
+                fadeInFunction("#img2");
+            }, completeLoopTime);
+        }, 1 * singleImageDisplayTime);
+        setTimeout(function () {
+            fadeOutFunction("#img2");
+            setInterval(function () {
+                fadeOutFunction("#img2");
+            }, completeLoopTime);
+        }, 2 * singleImageDisplayTime);
+
+        setTimeout(function () {
+            fadeInFunction("#img3");
+            setInterval(function () {
+                fadeInFunction("#img3");
+            }, completeLoopTime);
+        }, 2 * singleImageDisplayTime);
+        setTimeout(function () {
+            fadeOutFunction("#img3");
+            setInterval(function () {
+                fadeOutFunction("#img3");
+            }, completeLoopTime);
+        }, 3 * singleImageDisplayTime);
+
+        setTimeout(function () {
+            fadeInFunction("#img4");
+            setInterval(function () {
+                fadeInFunction("#img4");
+            }, completeLoopTime);
+        }, 3 * singleImageDisplayTime);
+        setTimeout(function () {
+            fadeOutFunction("#img4");
+            setInterval(function () {
+                fadeOutFunction("#img4");
+            }, completeLoopTime);
+        }, 4 * singleImageDisplayTime);
+
+        setTimeout(function () {
+            fadeInFunction("#img5");
+            setInterval(function () {
+                fadeInFunction("#img5");
+            }, completeLoopTime);
+        }, 4 * singleImageDisplayTime);
+        setTimeout(function () {
+            fadeOutFunction("#img5");
+            setInterval(function () {
+                fadeOutFunction("#img5");
+            }, completeLoopTime);
+        }, 5 * singleImageDisplayTime);
+
+    }),
 
 
-    text: function(string, x, y, size, col) {
+
+        text: function(string, x, y, size, col) {
         SMASH.ctx.font = 'bold '+size+'px Monospace';
         SMASH.ctx.fillStyle = col;
         SMASH.ctx.fillText(string, x, y);
@@ -305,8 +369,7 @@ SMASH.Touch = function(x, y) {
     this.r = 5;             // the radius
     this.opacity = 1;       // inital opacity. the dot will fade out
     this.fade = 0.05;       // amount by which to fade on each game tick
-    // this.remove = false;    // flag for removing this entity. POP.update
-    // will take care of this
+
 
     this.update = function() {
         // reduct the opacity accordingly
@@ -321,20 +384,20 @@ SMASH.Touch = function(x, y) {
 
 };
 
-SMASH.Bubble = function() {
+SMASH.Skull = function() {
 
-    this.type = 'bubble';
+    this.type = 'skull';
     this.r = (Math.random() * 20) + 10;
     this.speed = (Math.random() * 3) + 1;
 
     this.x = (Math.random() * (SMASH.WIDTH) - this.r);
     this.y = SMASH.HEIGHT + (Math.random() * 100) + 100;
 
-    // the amount by which the bubble
+    // the amount by which the skull
     // will move from side to side
     this.waveSize = 5 + this.r;
     // we need to remember the original
-    // x position for our sine wave calculation
+    // x position for our  wave calculation
     this.xConstant = this.x;
 
     this.remove = false;
@@ -376,7 +439,7 @@ SMASH.Particle = function(x, y,r, col) {
     // 50% chance of either happening
     this.dir = (Math.random() * 2 > 1) ? 1 : -1;
 
-    // random values so particles do no
+    // random values so particles do not
     // travel at the same speeds
     this.vx = ~~(Math.random() * 4) * this.dir;
     this.vy = ~~(Math.random() * 7);
@@ -396,8 +459,8 @@ SMASH.Particle = function(x, y,r, col) {
 
         // adding this negative amount to the
         // y velocity exerts an upward pull on
-        // the particle, as if drawn to the
-        // surface
+        // the particle, as if drawn to the top of screen
+
         this.vy -= 0.25;
 
         // offscreen
