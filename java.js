@@ -254,7 +254,25 @@ SMASH.Draw = {
     },
 
     //create skull picture loop
-    skull:(function () {
+    bones: function () {
+
+        var slideimages =[]; // create new array to preload images
+         // create new instance of image object
+        slideimages[0].src = "skulls1.png" ;// set image src property to image path, preloading image in the process
+
+        slideimages[1].src = "skulls2.png";
+
+        slideimages[2].src = "skulls3.png";
+
+        slideimages[3].src = "skulls4.png";
+
+        slideimages[4].src = "skulls5.png";
+
+        slideimages[5].src = "skulls6.png";
+
+        slideimages[6].src = "skulls7.png";
+
+        slideimages[7].src = "skulls8.png";
 
         var singleImageDisplayTime = 1000;
         var completeLoopTime = 5 * singleImageDisplayTime;
@@ -273,6 +291,9 @@ SMASH.Draw = {
                 fadeInFunction("#img1");
             }, completeLoopTime);
         }, 5 * singleImageDisplayTime);
+
+
+
         setTimeout(function () {
             fadeOutFunction("#img1");
             setInterval(function () {
@@ -332,7 +353,7 @@ SMASH.Draw = {
             }, completeLoopTime);
         }, 5 * singleImageDisplayTime);
 
-    }),
+    },
 
 
 
@@ -372,14 +393,14 @@ SMASH.Touch = function(x, y) {
 
 
     this.update = function() {
-        // reduct the opacity accordingly
+        // reduce the opacity accordingly
         this.opacity -= this.fade;
         // if opacity if 0 or less, flag for removal
         this.remove = (this.opacity < 0) ? true : false;
     };
 
     this.render = function() {
-        SMASH.Draw.circle(this.x, this.y, this.r, 'rgba(255,0,0,'+this.opacity+')');
+        SMASH.Draw.bones(this.x, this.y, this.r, 'rgba(255,0,0,'+this.opacity+')');
     };
 
 };
@@ -422,7 +443,7 @@ SMASH.Skull = function() {
 
     this.render = function() {
 
-        SMASH.Draw.circle(this.x, this.y, this.r, 'rgba(255,255,255,1)');
+        SMASH.Draw.bones(this.x, this.y, this.r, 'rgba(255,255,255,1)');
     };
 
 };
@@ -472,7 +493,7 @@ SMASH.Particle = function(x, y,r, col) {
 
 
     this.render = function() {
-        SMASH.Draw.circle(this.x, this.y, this.r, this.col);
+        SMASH.Draw.bones(this.x, this.y, this.r, this.col);
     };
 
 };
