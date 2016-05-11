@@ -272,11 +272,11 @@ SMASH.Draw = {
         SMASH.ctx.arc(x + 5, y + 5, r, 0,  Math.PI * 2, true);
         SMASH.ctx.closePath();
         SMASH.ctx.fill();
-        SMASH.ctx.strokeStyle = "#F00";
-        SMASH.ctx.beginPath();
-        SMASH.ctx.arc(x , y , r, 0,  Math.PI , true);
-        SMASH.ctx.closePath();
-        SMASH.ctx.stroke();
+        //SMASH.ctx.strokeStyle = "#F00";
+        //SMASH.ctx.beginPath();
+        //SMASH.ctx.arc(x , y , r, 0,  Math.PI * 2 , true);
+        //SMASH.ctx.closePath();
+        //SMASH.ctx.stroke();
 
 
     },
