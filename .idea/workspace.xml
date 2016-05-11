@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a2a1cea3-1d52-4185-b2ef-a42f372ee2dd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="a2a1cea3-1d52-4185-b2ef-a42f372ee2dd" name="Default" comment="" />
     <ignored path="finalproject.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,11 +31,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="eye.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="eye.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SMASH eye game/eye.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.115830116">
+            <state vertical-scroll-proportion="-2.5">
               <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="java.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SMASH eye game/SMASH/java.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41512915">
+              <caret line="278" column="10" selection-start-line="278" selection-start-column="10" selection-end-line="278" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -68,6 +76,7 @@
         <option value="$PROJECT_DIR$/eye.html" />
         <option value="$PROJECT_DIR$/eye.css" />
         <option value="$PROJECT_DIR$/SMASH eye game/eye.html" />
+        <option value="$PROJECT_DIR$/SMASH eye game/SMASH/java.js" />
       </list>
     </option>
   </component>
@@ -190,20 +199,20 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.eye.html (1)">
+  <component name="RunManager" selected="JavaScript Debug.lineardesign.html (2)">
     <configuration default="false" name="eye.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/eye.html">
       <method />
     </configuration>
     <configuration default="false" name="lineardesign.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/lineardesign.html">
       <method />
     </configuration>
-    <configuration default="false" name="testgame.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/testgame.html">
-      <method />
-    </configuration>
     <configuration default="false" name="lineardesign.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/SMASH/lineardesign.html">
       <method />
     </configuration>
     <configuration default="false" name="eye.html (1)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/SMASH eye game/eye.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="lineardesign.html (2)" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/SMASH eye game/SMASH/lineardesign.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -247,17 +256,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.eye.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.lineardesign.html" />
-      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.testgame.html" />
-      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.lineardesign.html (1)" />
-      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.eye.html (1)" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.lineardesign.html (1)" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.eye.html (1)" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.lineardesign.html (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.eye.html (1)" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.lineardesign.html (1)" />
-        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.lineardesign.html" />
-        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.eye.html" />
-        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.testgame.html" />
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.lineardesign.html (2)" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.eye.html (1)" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.lineardesign.html (1)" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.lineardesign.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.eye.html" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +329,13 @@
       <option name="project" value="LOCAL" />
       <updated>1463005478906</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="better work">
+      <created>1463008174254</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1463008174254</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -363,7 +378,8 @@
     <MESSAGE value="eye drawing with ani added" />
     <MESSAGE value="updated draw function" />
     <MESSAGE value="trying to get eye to work" />
-    <option name="LAST_COMMIT_MESSAGE" value="trying to get eye to work" />
+    <MESSAGE value="better work" />
+    <option name="LAST_COMMIT_MESSAGE" value="better work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -415,8 +431,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SMASH eye game/eye.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.115830116">
+        <state vertical-scroll-proportion="-2.5">
           <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SMASH eye game/SMASH/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41512915">
+          <caret line="278" column="10" selection-start-line="278" selection-start-column="10" selection-end-line="278" selection-end-column="10" />
           <folding />
         </state>
       </provider>
