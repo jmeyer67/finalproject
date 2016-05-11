@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a1cea3-1d52-4185-b2ef-a42f372ee2dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testgame.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java.js" afterPath="$PROJECT_DIR$/java.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lineardesign.html" afterPath="$PROJECT_DIR$/lineardesign.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
@@ -41,8 +38,8 @@
           <file leaf-file-name="java.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/java.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.25276753">
-                  <caret line="267" column="29" selection-start-line="267" selection-start-column="29" selection-end-line="267" selection-end-column="29" />
+                <state vertical-scroll-proportion="0.8892989">
+                  <caret line="290" column="0" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -115,8 +112,8 @@
           <file leaf-file-name="testgame.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/testgame.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-3.069498">
-                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.43436295">
+                  <caret line="135" column="28" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -159,8 +156,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="214" />
-    <option name="y" value="32" />
+    <option name="x" value="105" />
+    <option name="y" value="23" />
     <option name="width" value="1337" />
     <option name="height" value="873" />
   </component>
@@ -345,11 +342,17 @@
       <option name="project" value="LOCAL" />
       <updated>1462992405295</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="trying to get eye to work">
+      <created>1463000711837</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1463000711837</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="214" y="32" width="1337" height="873" extended-state="0" />
+    <frame x="105" y="23" width="1337" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21352583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -387,7 +390,8 @@
     <MESSAGE value="new js update" />
     <MESSAGE value="eye drawing with ani added" />
     <MESSAGE value="updated draw function" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated draw function" />
+    <MESSAGE value="trying to get eye to work" />
+    <option name="LAST_COMMIT_MESSAGE" value="trying to get eye to work" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -559,24 +563,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../../gametest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.25">
-          <caret line="267" column="33" selection-start-line="267" selection-start-column="33" selection-end-line="267" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/java.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25276753">
-          <caret line="267" column="29" selection-start-line="267" selection-start-column="29" selection-end-line="267" selection-end-column="29" />
+        <state vertical-scroll-proportion="-7.5">
+          <caret line="12" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/testgame.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.069498">
-          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.43436295">
+          <caret line="135" column="28" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/java.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8892989">
+          <caret line="290" column="0" selection-start-line="290" selection-start-column="0" selection-end-line="290" selection-end-column="0" />
           <folding />
         </state>
       </provider>
