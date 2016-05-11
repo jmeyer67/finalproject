@@ -1,0 +1,12 @@
+
+Mobile game
+
+Cater to the many viewports and optimize for mobile.
+Use the canvas API to draw to the screen.
+Capture touch events.
+Make a basic game loop.
+Create game sprites
+Use collision detection
+Add basic particle effects
+
+

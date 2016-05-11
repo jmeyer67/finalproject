@@ -1,0 +1,16 @@
+body {
+    background: linear-gradient(to bottom, rgba(100, 100, 100, 0.2) 0%, rgba(255, 255, 255, 0.5) 40%, #ffffff 100%);
+    background-repeat: no-repeat;
+}
+
+.skull {
+    width: 900px;
+    height: 900px;
+    display:block;
+    margin:2% auto ;
+    background:url('skullsnoback.png') left center;
+    animation:play .6s steps(10) infinite;
+}
+@keyframes play {
+    100% {background-position: -1400px;}
+}
