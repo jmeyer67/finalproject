@@ -23,10 +23,11 @@ var SMASH = {
 
     scale:  1,
     offset: {top: 0, left: 0},
-    //time spawn of skull
-    nextSkull: 100,
+
     //stores touches, particles, bugs
     entities: [],
+    //time spawn of skull
+    nextEye: 100,
     //tracking player
     score: {
         taps: 0,
@@ -62,6 +63,13 @@ var SMASH = {
         SMASH.android = SMASH.ua.indexOf('android') > -1 ? true : false;
         SMASH.ios = ( SMASH.ua.indexOf('iphone') > -1 || SMASH.ua.indexOf('ipad') > -1  ) ? true : false;
 
+        // look for clicks
+        window.addEventListener('click', function(e) {
+            e.preventDefault();
+            SMASH.Input.set(e);
+        }, false);
+
+
 
         // look for touches
         window.addEventListener('touchstart', function(e) {
@@ -76,11 +84,6 @@ var SMASH = {
             e.preventDefault();
         }, false);
 
-        // look for clicks
-        window.addEventListener('click', function(e) {
-            e.preventDefault();
-            SMASH.Input.set(e);
-        }, false);
 
         // resize
         SMASH.resize();
@@ -91,7 +94,7 @@ var SMASH = {
 
         SMASH.currentHeight = window.innerHeight;
         // resize the width in proportion to height
-        SMASH.currentWidth = SMASH.currentHeight *SMASH.RATIO;
+        SMASH.currentWidth = SMASH.currentHeight * SMASH.RATIO;
         // the address bar, thus hiding it.
         if (SMASH.android || SMASH.ios) {
             document.body.style.height = (window.innerHeight + 50) + 'px';
@@ -118,14 +121,14 @@ var SMASH = {
             checkCollision = false; // we only need to check for a collision
         // if the user tapped on this game tick
 
-        // decrease our nextSkull counter
-        SMASH.nextSkull -= 1;
+        // decrease our nextEye counter
+        SMASH.nextEye -= 1;
         // if the counter is less than zero
-        if (SMASH.nextSkull < 0) {
+        if (SMASH.nextEye < 0) {
             // put a new instance of Skull into our entities array
-            SMASH.entities.push(new SMASH.Skull());
+            SMASH.entities.push(new SMASH.Eye());
             // reset the counter with a random value
-            SMASH.nextSkull = ( Math.random() * 100 ) + 100;
+            SMASH.nextEye = ( Math.random() * 100 ) + 100;
         }
 
         // spawn a new instance of Touch
@@ -147,7 +150,7 @@ var SMASH = {
         for (i = 0; i < SMASH.entities.length; i += 1) {
             SMASH.entities[i].update();
 
-            if (SMASH.entities[i].type === 'skull' && checkCollision) {
+            if (SMASH.entities[i].type === 'eye' && checkCollision) {
                 hit = SMASH.collides(SMASH.entities[i],
                     {x: SMASH.Input.x, y: SMASH.Input.y, r: 7});
                 if (hit) {
@@ -174,7 +177,8 @@ var SMASH = {
             }
         }
 
-
+       // SMASH.wave.time = new Date().getTime() * 0.002;
+        //SMASH.wave.offset = Math.sin(POP.wave.time * 0.8) * 5;
 
         // calculate accuracy
         SMASH.score.accuracy = (SMASH.score.hit / SMASH.score.taps) * 100;
@@ -193,7 +197,14 @@ var SMASH = {
 
         SMASH.Draw.rect(0, 0, SMASH.WIDTH, SMASH.HEIGHT, '#036');
 
+        //for (i = 0; i < SMASH.wave.total; i++) {
 
+            //POP.Draw.circle(
+               // POP.wave.x + POP.wave.offset +  (i * POP.wave.r),
+               // POP.wave.y,
+                //POP.wave.r,
+               // '#fff');
+       // }
 
         // cycle through all entities and render to canvas
         for (i = 0; i < SMASH.entities.length; i += 1) {
@@ -253,8 +264,22 @@ SMASH.Draw = {
         SMASH.ctx.fillRect(x, y, w, h);
     },
 
-    //create skull picture loop
 
+    //create Eye picture loop
+    circle: function(x, y, r, col) {
+        SMASH.ctx.fillStyle = col;
+        SMASH.ctx.beginPath();
+        SMASH.ctx.arc(x + 5, y + 5, r, 0,  Math.PI * 2, true);
+        SMASH.ctx.closePath();
+        SMASH.ctx.fill();
+        SMASH.ctx.strokeStyle = "#F00";
+        SMASH.ctx.beginPath();
+        SMASH.ctx.arc(x , y , r, 0,  Math.PI , true);
+        SMASH.ctx.closePath();
+        SMASH.ctx.stroke();
+
+
+    },
 
         text: function(string, x, y, size, col) {
         SMASH.ctx.font = 'bold '+size+'px Monospace';
@@ -299,21 +324,21 @@ SMASH.Touch = function(x, y) {
     };
 
     this.render = function() {
-        SMASH.Draw.bones(this.x, this.y, this.r, 'rgba(255,0,0,'+this.opacity+')');
+        SMASH.Draw.circle(this.x, this.y, this.r, 'rgba(255,0,0,'+this.opacity+')');
     };
 
 };
 
-SMASH.Skull = function() {
+SMASH.Eye = function() {
 
-    this.type = 'skull';
+    this.type = 'eye';
     this.r = (Math.random() * 20) + 10;
     this.speed = (Math.random() * 3) + 1;
 
     this.x = (Math.random() * (SMASH.WIDTH) - this.r);
     this.y = SMASH.HEIGHT + (Math.random() * 100) + 100;
 
-    // the amount by which the skull
+    // the amount by which the eye
     // will move from side to side
     this.waveSize = 5 + this.r;
     // we need to remember the original
@@ -342,7 +367,7 @@ SMASH.Skull = function() {
 
     this.render = function() {
 
-        SMASH.Draw.bones(this.x, this.y, this.r, 'rgba(255,255,255,1)');
+        SMASH.Draw.circle(this.x, this.y, this.r, 'rgba(255,255,255,1)');
     };
 
 };
@@ -381,7 +406,7 @@ SMASH.Particle = function(x, y,r, col) {
         // y velocity exerts an upward pull on
         // the particle, as if drawn to the top of screen
 
-        this.vy -= 0.25;
+        this.vy = 1.25;
 
         // offscreen
         if (this.y < 0) {
@@ -392,7 +417,7 @@ SMASH.Particle = function(x, y,r, col) {
 
 
     this.render = function() {
-        SMASH.Draw.bones(this.x, this.y, this.r, this.col);
+        SMASH.Draw.circle(this.x, this.y, this.r, this.col);
     };
 
 };
@@ -404,6 +429,6 @@ window.addEventListener('resize', SMASH.resize, false);
 
 
 // the address bar, thus hiding it.
-if (SMASH.android || SMASH.ios) {
-    document.body.style.height = (window.innerHeight + 50) + 'px';
-}
+//if (SMASH.android || SMASH.ios) {
+   // document.body.style.height = (window.innerHeight + 50) + 'px';
+//}

@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a1cea3-1d52-4185-b2ef-a42f372ee2dd" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/testgame.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java.js" afterPath="$PROJECT_DIR$/java.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skull.css" afterPath="$PROJECT_DIR$/skull.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lineardesign.html" afterPath="$PROJECT_DIR$/lineardesign.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
@@ -30,8 +31,8 @@
           <file leaf-file-name="lineardesign.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/lineardesign.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state vertical-scroll-proportion="-12.5">
+                  <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -40,8 +41,8 @@
           <file leaf-file-name="java.js" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/java.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="0.49815497">
-                  <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
+                <state vertical-scroll-proportion="0.25276753">
+                  <caret line="267" column="29" selection-start-line="267" selection-start-column="29" selection-end-line="267" selection-end-column="29" />
                   <folding />
                 </state>
               </provider>
@@ -50,8 +51,8 @@
           <file leaf-file-name="gametest.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../../gametest.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-0.0">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state vertical-scroll-proportion="-7.5">
+                  <caret line="12" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -101,11 +102,21 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="gametest.html" pinned="false" current-in-tab="true">
+          <file leaf-file-name="gametest.html" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/../../gametest.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state vertical-scroll-proportion="-9.527027">
-                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state vertical-scroll-proportion="-6.25">
+                  <caret line="267" column="33" selection-start-line="267" selection-start-column="33" selection-end-line="267" selection-end-column="33" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="testgame.html" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/testgame.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state vertical-scroll-proportion="-3.069498">
+                  <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
@@ -118,8 +129,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Html5" />
         <option value="CSS File" />
+        <option value="Html5" />
       </list>
     </option>
   </component>
@@ -134,6 +145,8 @@
         <option value="$PROJECT_DIR$/skull.html" />
         <option value="$PROJECT_DIR$/eye.css" />
         <option value="$PROJECT_DIR$/skull.css" />
+        <option value="$PROJECT_DIR$/lineardesign.html" />
+        <option value="$PROJECT_DIR$/testgame.html" />
         <option value="$PROJECT_DIR$/java.js" />
       </list>
     </option>
@@ -146,9 +159,9 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2" />
-    <option name="y" value="25" />
-    <option name="width" value="1149" />
+    <option name="x" value="214" />
+    <option name="y" value="32" />
+    <option name="width" value="1337" />
     <option name="height" value="873" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -225,11 +238,17 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="recentsLimit" value="5" />
   </component>
-  <component name="RunManager" selected="JavaScript Debug.skull.html">
+  <component name="RunManager" selected="JavaScript Debug.lineardesign.html">
     <configuration default="false" name="skull.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/skull.html">
       <method />
     </configuration>
     <configuration default="false" name="eye.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/eye.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="lineardesign.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/lineardesign.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="testgame.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/testgame.html">
       <method />
     </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -270,14 +289,18 @@
       <envs />
       <method />
     </configuration>
-    <list size="2">
+    <list size="4">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.skull.html" />
       <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.eye.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.lineardesign.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.testgame.html" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.skull.html" />
-        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.eye.html" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.lineardesign.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.testgame.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.skull.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.eye.html" />
       </list>
     </recent_temporary>
   </component>
@@ -316,14 +339,20 @@
       <option name="project" value="LOCAL" />
       <updated>1462928466812</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="updated draw function">
+      <created>1462992405295</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1462992405295</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="2" y="25" width="1149" height="873" extended-state="0" />
-    <editor active="false" />
+    <frame x="214" y="32" width="1337" height="873" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24911347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21352583" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -357,7 +386,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new js update" />
     <MESSAGE value="eye drawing with ani added" />
-    <option name="LAST_COMMIT_MESSAGE" value="eye drawing with ani added" />
+    <MESSAGE value="updated draw function" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated draw function" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -521,24 +551,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lineardesign.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-12.5">
+          <caret line="20" column="0" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../../gametest.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-6.25">
+          <caret line="267" column="33" selection-start-line="267" selection-start-column="33" selection-end-line="267" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/java.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.49815497">
-          <caret line="256" column="0" selection-start-line="256" selection-start-column="0" selection-end-line="256" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.25276753">
+          <caret line="267" column="29" selection-start-line="267" selection-start-column="29" selection-end-line="267" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testgame.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.069498">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
