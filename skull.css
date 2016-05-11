@@ -1,37 +1,15 @@
-.hi {
-    width: 50px;
-    height: 72px;
-    background-image: url("http://s.cdpn.io/79/sprite-steps.png");
-
-    -webkit-animation: play .8s steps(10) infinite;
-    -moz-animation: play .8s steps(10) infinite;
-    -ms-animation: play .8s steps(10) infinite;
-    -o-animation: play .8s steps(10) infinite;
-    animation: play .8s steps(10) infinite;
+body {
+    background: #24aecd;
 }
 
-@-webkit-keyframes play {
-    from { background-position:    0px; }
-    to { background-position: -500px; }
+.skull {
+    width: 900px;
+    height: 900px;
+    display:block;
+    margin:2% auto ;
+    background:url('skullsnoback.png') left center;
+    animation:play .6s steps(10) infinite;
 }
-
-@-moz-keyframes play {
-    from { background-position:    0px; }
-    to { background-position: -500px; }
-}
-
-@-ms-keyframes play {
-    from { background-position:    0px; }
-    to { background-position: -500px; }
-}
-
-@-o-keyframes play {
-    from { background-position:    0px; }
-    to { background-position: -500px; }
-}
-
 @keyframes play {
-    from { background-position:    0px; }
-    to { background-position: -500px; }
+    100% {background-position: -1400px;}
 }
-

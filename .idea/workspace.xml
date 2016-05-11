@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a1cea3-1d52-4185-b2ef-a42f372ee2dd" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skull.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/skull.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/java.js" afterPath="$PROJECT_DIR$/java.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eye.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/eye.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skull.css" afterPath="$PROJECT_DIR$/skull.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/skull.html" afterPath="$PROJECT_DIR$/skull.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="finalproject.iws" />
@@ -46,21 +47,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skull.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="skull.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/skull.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.086872585">
-              <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+            <state vertical-scroll-proportion="-8.125">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="skull.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="skull.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/skull.css">
           <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.41512915">
+              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eye.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eye.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.375">
+              <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="eye.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/eye.css">
+          <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+              <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
               <folding />
             </state>
           </provider>
@@ -84,8 +105,10 @@
       <list>
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/java.js" />
-        <option value="$PROJECT_DIR$/skull.css" />
+        <option value="$PROJECT_DIR$/eye.html" />
         <option value="$PROJECT_DIR$/skull.html" />
+        <option value="$PROJECT_DIR$/eye.css" />
+        <option value="$PROJECT_DIR$/skull.css" />
       </list>
     </option>
   </component>
@@ -97,8 +120,8 @@
     <order />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="105" />
-    <option name="y" value="23" />
+    <option name="x" value="99" />
+    <option name="y" value="191" />
     <option name="width" value="1149" />
     <option name="height" value="873" />
   </component>
@@ -180,6 +203,9 @@
     <configuration default="false" name="skull.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/skull.html">
       <method />
     </configuration>
+    <configuration default="false" name="eye.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/finalproject/eye.html">
+      <method />
+    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
@@ -218,12 +244,14 @@
       <envs />
       <method />
     </configuration>
-    <list size="1">
+    <list size="2">
       <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.skull.html" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.eye.html" />
     </list>
     <recent_temporary>
-      <list size="1">
+      <list size="2">
         <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.skull.html" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.eye.html" />
       </list>
     </recent_temporary>
   </component>
@@ -250,11 +278,17 @@
       <option name="project" value="LOCAL" />
       <updated>1462405483548</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new js update">
+      <created>1462900629227</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1462900629227</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="105" y="23" width="1149" height="873" extended-state="0" />
+    <frame x="99" y="191" width="1149" height="873" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24911347" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -410,14 +444,6 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lineardesign.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/skulls3.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -436,18 +462,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/skull.css">
+    <entry file="file://$PROJECT_DIR$/lineardesign.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="8" column="46" selection-start-line="8" selection-start-column="46" selection-end-line="8" selection-end-column="46" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eye.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="69" column="41" selection-start-line="69" selection-start-column="41" selection-end-line="69" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/eye.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.375">
+          <caret line="15" column="7" selection-start-line="15" selection-start-column="7" selection-end-line="15" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/skull.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.086872585">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/skull.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.41512915">
+          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding />
         </state>
       </provider>
