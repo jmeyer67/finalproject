@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Escapepod()
+comment1.params=
+comment1.target=void\ act()
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ Escapepod\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=boolean\ atWorldEdge()
+comment2.text=\n\ Test\ if\ we\ are\ close\ to\ one\ of\ the\ edges\ of\ the\ world.\ Return\ true\ is\ we\ are.\n
+comment3.params=
+comment3.target=void\ randomTurn()
+comment3.text=\n\ With\ a\ 10%\ probability,\ turn\ a\ bit\ right\ or\ left.\n
+comment4.params=
+comment4.target=void\ turnAtEdge()
+comment4.text=\n\ If\ we\ reach\ the\ edge\ of\ the\ world,\ turn\ a\ little\ bit.\n
+numComments=5

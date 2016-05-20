@@ -1,0 +1,23 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ act()
+comment0.text=\n\ Act\ -\ do\ whatever\ the\ Ship\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment1.params=
+comment1.target=void\ checkKeys()
+comment1.text=\n\ Check\ whether\ there\ are\ any\ key\ pressed\ and\ react\ to\ them.\n
+comment2.params=boosterOn
+comment2.target=void\ ignite(boolean)
+comment2.text=\n\ Should\ the\ rocket\ be\ ignited?\n
+comment3.params=
+comment3.target=void\ checkCollision()
+comment3.text=\n\ Check\ whether\ we\ are\ colliding\ with\ an\ bullet.\n
+comment4.params=
+comment4.target=void\ tryToEat()
+comment4.text=\n\ Check\ whether\ we\ can\ see\ Escapepod.\ if\ we\ can,\ save\ them.\n
+comment5.params=
+comment5.target=void\ gameOver()
+comment5.text=\n\ We\ have\ won\ the\ game\n
+comment6.params=
+comment6.target=void\ createEscapepod()
+comment6.text=\n\ Create\ a\ new\ Escapepod\ and\ insert\ it\ at\ random\ location.\n
+numComments=7

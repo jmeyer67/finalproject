@@ -177,8 +177,7 @@ var SMASH = {
             }
         }
 
-       // SMASH.wave.time = new Date().getTime() * 0.002;
-        //SMASH.wave.offset = Math.sin(POP.wave.time * 0.8) * 5;
+
 
         // calculate accuracy
         SMASH.score.accuracy = (SMASH.score.hit / SMASH.score.taps) * 100;
@@ -195,7 +194,7 @@ var SMASH = {
         var i;
 
 
-        SMASH.Draw.rect(0, 0, SMASH.WIDTH, SMASH.HEIGHT, '#036');
+        SMASH.Draw.rect(0, 0, SMASH.WIDTH, SMASH.HEIGHT, '#EA2102');
 
         //for (i = 0; i < SMASH.wave.total; i++) {
 
@@ -266,20 +265,43 @@ SMASH.Draw = {
 
 
     //create Eye picture loop
-    circle: function(x, y, r, col) {
-        SMASH.ctx.fillStyle = col;
-        SMASH.ctx.beginPath();
-        SMASH.ctx.arc(x + 5, y + 5, r, 0,  Math.PI * 2, true);
-        SMASH.ctx.closePath();
-        SMASH.ctx.fill();
+   circle: function(x, y, r, col) {
+       var radial = SMASH.ctx.createRadialGradient(45, 45, 10, 52, 50, 30);
+       radial.addColorStop(0, '#110BC4');
+       radial.addColorStop(0.9, '#0a0021');
+       radial.addColorStop(1, 'rgba(1,159,98,0)');
+
+       SMASH.ctx.fillStyle = radial;
+       SMASH.ctx.beginPath();
+       SMASH.ctx.arc(x + 5, y + 5, r, 0,  Math.PI * 2, true);
+       SMASH.ctx.closePath();
+       SMASH.ctx.fill();
+   },
+   // SMASH.ctx.beginPath();
+    //SMASH.ctx.arc(75, 75, 5, 0, 2*Math.PI);
+    //SMASH.ctxt.closePath();
+    //SMASH.ctx.fill();
         //SMASH.ctx.strokeStyle = "#F00";
         //SMASH.ctx.beginPath();
         //SMASH.ctx.arc(x , y , r, 0,  Math.PI * 2 , true);
         //SMASH.ctx.closePath();
         //SMASH.ctx.stroke();
+   // circle: function() {
 
 
-    },
+
+    //var radial = ctx.createRadialGradient(105,105,20,112,120,50);
+   // radgrad2.addColorStop(0, '#FF5F98');
+   // radgrad2.addColorStop(0.75, '#FF0188');
+    //radgrad2.addColorStop(1, 'rgba(255,1,136,0)');
+
+
+       // SMASH.ctx.fillStyle = radgrad;
+       // SMASH.ctx.fillRect(0,0,150,150);
+       // SMASH.ctx.fillStyle = radgrad2;
+        //SMASH.ctx.fillRect(0,0,75,75);
+
+    //},
 
         text: function(string, x, y, size, col) {
         SMASH.ctx.font = 'bold '+size+'px Monospace';

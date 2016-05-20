@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Badguy()
+comment1.params=clss
+comment1.target=void\ tryToCatch(java.lang.Class)
+comment1.text=\n\ Act\ -\ do\ whatever\ the\ lizard\ wants\ to\ do.\ This\ method\ is\ called\ whenever\n\ the\ 'Act'\ or\ 'Run'\ button\ gets\ pressed\ in\ the\ environment.\n
+comment2.params=
+comment2.target=boolean\ atWorldEdge()
+comment3.params=
+comment3.target=void\ act()
+numComments=4

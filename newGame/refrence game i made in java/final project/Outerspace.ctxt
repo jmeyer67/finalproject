@@ -1,0 +1,12 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Outerspace()
+comment0.text=\n\ Constructor\ for\ objects\ of\ class\ Final.\n\ \n
+comment1.params=
+comment1.target=void\ populateRock()
+comment2.params=
+comment2.target=void\ populateEscapepod()
+comment3.params=
+comment3.target=void\ makeBadguy()
+comment3.text=\n\ Create\ 5\ Badguy\ objects.\n
+numComments=4
